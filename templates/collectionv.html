@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% for column in data %}
+    <td>
+      {% if forloop.first or forloop.last %}
+        <table width="272" cellpadding="5" cellspacing="0" border="0">
+      {% else %}
+        <table width="480" cellpadding="5" cellspacing="0" border="0">
+      {% endif %}
+      {% for item in column %}
+	<tr>
+	  <td class="small">
+
+	    <!-- block -->
+	    <table border="0">
+
+	      <!-- initial space -->
+	      <tr><td><img src="{{ static_url }}img/spacer.gif" height="5" border="0"></td></tr>
+
+	      <!-- block header -->
+	      <tr>
+		<td class="blockhead">
+		  {% if item.url %}
+		  <a href="{{ item.url }}">{{ item.title }}</a>
+                  {% else %}
+		  {{ item.title }}
+		  {% endif %}
+		</td>
+	      </tr>
+
+	      <!-- block body -->
+	      <tr>
+		<td>
+		{% if item.img %}
+		  {% include "includes/picalignleft" %}
+		{% else %}
+		  {{ item.text|safe }}
+		{% endif %}
+		</td>
+	      </tr>
+	    </table>
+	    <!-- block end -->	    
+	  </td>
+	</tr>
+	{% endfor %}
+      </table>
+    </td>
+  {% endfor %}
+{% endblock %}

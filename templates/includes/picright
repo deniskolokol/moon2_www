@@ -1,0 +1,6 @@
+		  <table cellSpacing="3" cellPadding="3" align="left" border="0">
+		    <tr>
+			<td>{{ item.text|linebreaks }}</td>
+			<td><div><img hspace=0 src={{ item.pic }} border="0"></div></td>
+		    </tr>
+		  </table>

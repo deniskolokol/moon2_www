@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% for item in data %}
+      {% if forloop.counter0|divisibleby:3 %}
+  </tr>
+  <tr>
+      {% endif %}
+    <td>
+      <table width="90%" height="230" cellpadding="5" cellspacing="0" border="0">
+	<tr>
+	  <td class="small" width="300">
+
+	    <!-- block -->
+	    <table border="0">
+
+	      <!-- initial space -->
+	      <tr><td><img src="{{ static_url }}img/spacer.gif" height="5" border="0"></td></tr>
+
+	      <!-- block header -->
+	      <tr>
+		<td class="blockhead">
+		  {% if item.url %}
+		  <a href="/{{ item.url }}">{{ item.title }}</a>
+		  {% else %}
+		  {{ item.title }}
+		  {% endif %}
+		</td>
+	      </tr>
+
+	      <!-- block body -->
+	      <tr>
+		<td>
+		{% if item.pic %}
+		  {% include "includes/picleft" %}
+		{% else %}
+		  {{ item.text|linebreaks|urlize }}
+		{% endif %}
+		</td>
+	      </tr>
+	    </table>
+	    <!-- block end -->	    
+	  </td>
+	</tr>
+      </table>
+    </td>
+  {% endfor %}
+{% endblock %}
