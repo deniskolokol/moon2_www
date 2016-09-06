@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="top-left">
+  <table width="300" cellpadding="5" cellspacing="0" border="0">
+    <tr>
+      <td>
+        {% include "includes/menu" %}
+      </td>
+    </tr>
+    <tr><td><img src="{{ static_url }}img/spacer.gif" height="10" border="0"></td></tr>
+  </table>
+</div>
+
+<div id="top-right">
+  <table width="900">
+    <tr>
+
+      <!-- data -->
+      {% for column in content %}
+      <td>
+        <table width="300" cellpadding="5" cellspacing="0" border="0">
+          <tr>
+            <td>
+
+              {% for item in column %}
+              <!-- block -->
+              <table>
+    
+                <!-- block header -->
+                <tr>
+                  <td class="blockhead">
+                    {% if item.url %}
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                    {% else %}
+                    {{ item.title }}
+                    {% endif %}
+                  </td>
+                </tr>
+
+                <!-- block body -->
+                <tr>
+                  <td>
+                    {% if item.img %}
+                    {% include "includes/picalignleft" %}
+                    {% else %}
+                    {{ item.text|safe }}
+                    {% endif %}
+                  </td>
+                </tr>
+
+              </table>
+              <!-- block end -->	    
+              {% endfor %}
+            </td>
+          </tr>
+        </table>
+      </td>
+      {% endfor %}
+    </tr>
+    <tr><td><img src="{{ static_url }}img/spacer.gif" height="10" border="0"></td></tr>
+  </table>
+</div>
+{% endblock %}

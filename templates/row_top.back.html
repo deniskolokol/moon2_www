@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <td>
+      &nbsp;
+      {% include "includes/menu" %}
+    </td>
+
+    <td><img src="{{ static_url }}img/spacer.gif" width="120" border="0"></td>
+
+    {% for column in content %}
+    <!-- data -->
+    <td>
+      <table cellpadding="5" cellspacing="0" width="300" border="0">
+        {% for item in column %}
+        <!-- initial space -->
+        <tr><td><img src="{{ static_url }}img/spacer.gif" height="5" border="0"></td></tr>
+        
+        <!-- block header -->
+        <tr>
+          <td class="blockhead">
+            {% if item.url %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+            {{ item.title }}
+            {% endif %}
+          </td>
+        </tr>
+        
+        <!-- block body -->
+        <tr>
+          <td>
+            {% if item.img %}
+            {% include "includes/picalignleft" %}
+            {% else %}
+            {{ item.text|safe }}
+            {% endif %}
+          </td>
+        </tr>
+        <!-- block end -->
+      {% endfor %}
+      </table>
+    </td>
+    {% endfor %}
+{% endblock %}
