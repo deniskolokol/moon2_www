@@ -88,9 +88,15 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# OS X garbage
 .DS_Store
 ._*
 
+# dummy db
 db.sqlite3
 
+# Google garbage
 .picasa*
+
+# Deployment scripts
+fabfile
