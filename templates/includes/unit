@@ -1,0 +1,29 @@
+<table width="300" cellpadding="5" cellspacing="0" border="0">
+  <!-- header -->
+  {% if item.unit.title %}
+  <tr>
+    <td class="blockhead">
+      {% if item.unit.url %}
+      <a href="{{ item.unit.url }}">{{ item.unit.title }}</a>
+      {% else %}
+      {{ item.unit.title }}
+      {% endif %}
+    </td>
+  </tr>
+  {% endif %}
+  <!-- annotation -->
+  {% if item.unit.annotation %}
+  <tr><td class="annot">{{ item.unit.annotation|safe|linebreaks }}</td></tr>
+  <tr><td><img src="{{ static_url }}img/spacer.gif" height="3" border="0"></td></tr>
+  {% endif %}
+  <!-- body -->
+  <tr>
+    <td>
+      {% if item.unit.img %}
+      {% include "includes/picalignleft" %}
+      {% else %}
+      {{ item.unit.body|safe|linebreaks }}
+      {% endif %}
+    </td>
+  </tr>
+</table>
