@@ -15,44 +15,18 @@
 <div id="top-right">
   <table width="900">
     <tr>
-
       <!-- data -->
       {% for column in content %}
       <td>
-        <table width="300" cellpadding="5" cellspacing="0" border="0">
+        <table>
           <tr>
+            {% for item in column %}
             <td>
-
-              {% for item in column %}
               <!-- block -->
-              <table>
-    
-                <!-- block header -->
-                <tr>
-                  <td class="blockhead">
-                    {% if item.url %}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
-                    {% else %}
-                    {{ item.title }}
-                    {% endif %}
-                  </td>
-                </tr>
-
-                <!-- block body -->
-                <tr>
-                  <td>
-                    {% if item.img %}
-                    {% include "includes/picalignleft" %}
-                    {% else %}
-                    {{ item.text|safe }}
-                    {% endif %}
-                  </td>
-                </tr>
-
-              </table>
-              <!-- block end -->	    
-              {% endfor %}
+              {% include "includes/unit" %}
+              <!-- block end -->
             </td>
+            {% endfor %}
           </tr>
         </table>
       </td>

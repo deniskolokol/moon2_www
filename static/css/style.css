@@ -102,10 +102,11 @@ TD.alt {
     font-size: 8pt;
 }
 
-TD.small {
-    color: #000000;   
+TD.annot {
+    color: #959595;
     font-family: Verdana, Arial, sans-serif;   
-    font-size: 8pt;
+    font-size: 9pt;
+    font-style: italic;
 }
 
 TD.index {
