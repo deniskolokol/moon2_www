@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     
     'django_extensions',
 
-    'core',
+    'moon2_www.core',
     'browser',
 ]
 
