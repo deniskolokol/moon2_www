@@ -18,6 +18,6 @@ from django.contrib import admin
 
 
 urlpatterns = [
-    url(r'^', include('browser.urls')),
+    url(r'^', include('moon2_www.browser.urls')),
     url(r'^admin/', admin.site.urls),
 ]
