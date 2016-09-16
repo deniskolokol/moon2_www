@@ -1,4 +1,4 @@
-from config.common import *
+from moon2_www.config.common import *
 
 # XXX - add this when moving to fabric
 #
