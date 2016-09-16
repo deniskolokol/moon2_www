@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     'moon2_www.core',
-    'browser',
+    'moon2_www.browser',
 ]
 
 MIDDLEWARE = [
