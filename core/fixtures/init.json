@@ -1,23 +1,5 @@
 [
 {
-    "model": "auth.user",
-    "pk": 3,
-    "fields": {
-        "password": "pbkdf2_sha256$30000$HYwFFPCe56IM$mdBIONh27+6cbnt1Tvme0o5QJMqe9vTb0qxWdESFgIU=",
-        "last_login": "2016-09-10T16:28:30.671Z",
-        "is_superuser": true,
-        "username": "deniskolokol",
-        "first_name": "",
-        "last_name": "",
-        "email": "dkolokol@gmail.com",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2016-09-10T16:27:23.474Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
     "model": "core.unit",
     "pk": 1,
     "fields": {
