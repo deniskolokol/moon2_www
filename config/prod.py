@@ -12,7 +12,7 @@ DATABASES = {
         'NAME': 'moon2',
         'USER' : 'moon2root',
         'PASSWORD' : 'moon2',
-        'HOST' : 'dekoinst.cqwlunjmbkvr.eu-central-1.rds.amazonaws.com',
+        'HOST' : 'localhost',
         'PORT' : '5432',
     }
 }
