@@ -1,5 +1,383 @@
 [
 {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$HYwFFPCe56IM$mdBIONh27+6cbnt1Tvme0o5QJMqe9vTb0qxWdESFgIU=",
+        "last_login": "2016-09-10T16:28:30.671Z",
+        "is_superuser": true,
+        "username": "deniskolokol",
+        "first_name": "",
+        "last_name": "",
+        "email": "dkolokol@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2016-09-10T16:27:23.474Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 1,
+    "fields": {
+        "token": "index_head_text",
+        "title": "MOON2",
+        "annotation": "inhuman music made by humans for a humankind",
+        "body": "Imagine if you could touch the sounds surrounding you. Imagine if you could build a piece of music by simply grabbing and moving sounds around, as if they were sticks and stones. Imagine yourself becoming a Titan in a vast sonic Universe moving and smashing massive masses of sounds around you.\r\n\r\nMOON2 (formely Sympli Romatik\u00f3) is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for a humankind.",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 2,
+    "fields": {
+        "token": "index_video",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe src=\"https://player.vimeo.com/video/134827501?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 3,
+    "fields": {
+        "token": "index_audio",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe style=\"border: 0; width: 300px; height: 300px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 4,
+    "fields": {
+        "token": "watch_head_text",
+        "title": "MOON2",
+        "annotation": "is a virtual world with simplified physical laws,",
+        "body": "where sounds turn into objects, whose behaviour is affected by natural forces such as gravity and wind. Performer\u2019s hands attract floating sounds \u2013 he literally \u201cgrasps\u201d them and \u201cdraws\u201d their trajectories in space. The space itself is a giant ephemeral musical instrument, which you neither pluck, nor bow, but excite through movement.",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 5,
+    "fields": {
+        "token": "watch_body",
+        "title": "",
+        "annotation": "it is neither about dance, nor interactive electronic music",
+        "body": ", nor whatever fancy label one can come up with. It is about a human body simultaneously operating in so-call reality as well as in the virtual World, which we can only hear.\r\n\r\nInterested in having us around? Please, take a look at our tech-rider (<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\">stereo</a> | <a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\">surround</a>) and <a href=\"/contact/\">contact us</a>.\r\n\r\n<a href=\"http://sympliromatiko.net/video/\">More videos</a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 6,
+    "fields": {
+        "token": "watch_media",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe src=\"https://player.vimeo.com/video/134404722?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 7,
+    "fields": {
+        "token": "listen_media1",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe width=\"430\" height=\"120\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/16549058&amp;color=e54b29&amp;auto_play=false&amp;show_user=true&amp;show_reposts=false\"></iframe>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 8,
+    "fields": {
+        "token": "listen_media2",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe style=\"border: 1; border-width: 6px; border-style: solid; border-radius: 5px; border-color: #f5f5f5; width: 430px; height: 110px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 9,
+    "fields": {
+        "token": "read_head",
+        "title": "MOON2",
+        "annotation": "Denis Kolokol, electronics, movement\r\nErnest Og\u00f3rek, bass\r\nTomek Cho\u0142oniewski, drums",
+        "body": "MOON2 is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for a humankind.",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 10,
+    "fields": {
+        "token": "read_portrait",
+        "title": "",
+        "annotation": "",
+        "body": "<a href=\"/static/img/portrait.jpg\"><img src=\"/static/img/portrait_s.jpg\" border=\"0\" /></a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 11,
+    "fields": {
+        "token": "read_statement",
+        "title": "",
+        "annotation": "",
+        "body": "We see music not as a sequence of events, but as a dynamic system, which we only pretend to control. If an order becomes slightly more complicated, than the simple \u201cif-else\u201d directive, the system tends to fall apart as more and more hidden inconsistencies unfold. These anomalies is our material. We balance on the surface of the meticulously painted chart trying not to be buried under the pure chaos.\r\n\r\nAll the electronic sounds are programmed manually in <a href=\"http://supercollider.github.io/\">SuperCollider</a>. No commercial synths used.",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 12,
+    "fields": {
+        "token": "contact_head",
+        "title": "MOON2 contacts",
+        "annotation": "",
+        "body": "speak to <i>Denis Kolokol</i> +48 508 986 079\r\nor write to <i>dkolokol AT gmail DOT com</i>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 13,
+    "fields": {
+        "token": "rider_full_text",
+        "title": "",
+        "annotation": "",
+        "body": "<h5>Electronics</h5>2 speakers powerful enough for the room.\r\nCables to connect audio interface with the main mixer (mono-outputs 1/4'' TRS). Subwoofer(s) powerful enough for the room (summary from all channels, except bass).\r\n<h5>Bass</h5>Bass amplifier on stage powerful enough for the room.\r\n<h5>Drums</h5>A drum kit: bass drum with pedal, snare drum with stand, floor tom, two hanging toms, hi-hat stand, 3 cymbal stands, drum chair, additional normal chair, carpet (if needed). Warning! The drum kit isn't needed for gigs taking place in Krako\u0301w. Instead the transportation of the drum kit to and fro is required.\r\nMic set for amplification of the drum kit.\r\n<h5>Monitoring</h5>2 mono stage monitors, with summary from all channels on the main mixer. Warning! Monitors should be placed as close to the speakers as possible (see image).\r\n<h5>Other</h5>\r\nTable for electronics (approx 120x70cm, any height).\r\nStand for Kinect (not higher than 70cm above the surface, on which a frontman stands). AC: 5 sockets for electronics according to your country standards.\r\n<h5>Lights</h5>Dim light with the dominance of red color. Static red spots on each band member.\r\n<h5>Optional</h5>Stage platform or scene approx 30-50cm high.\r\n<b>Warning!</b> For gigs taking place in Krako\u0301w: transportation of the drum kit (to and fro).\r\n<h5>Calibration and check</h5>1.5 hrs soundcheck. Warning! Critical for properly calibrating the space and amplifying the drums!\r\nLight and sound engineers available during the calibration and sound / light-check.",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 14,
+    "fields": {
+        "token": "rider_stereo",
+        "title": "",
+        "annotation": "",
+        "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\"><img src=\"/static/img/moon2rider_stereo.jpg\" border=\"0\" />",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 15,
+    "fields": {
+        "token": "rider_surround",
+        "title": "",
+        "annotation": "",
+        "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\"><img src=\"/static/img/moon2rider_surround.jpg\" border=\"0\" /></a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.section",
+    "pk": 1,
+    "fields": {
+        "label": "index",
+        "bg_image": "bg1",
+        "is_active": true,
+        "updated": "2016-09-11T16:19:24.913Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 2,
+    "fields": {
+        "label": "watch",
+        "bg_image": "bg5",
+        "is_active": true,
+        "updated": "2016-09-11T16:19:37.728Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 3,
+    "fields": {
+        "label": "listen",
+        "bg_image": "bg6",
+        "is_active": true,
+        "updated": "2016-09-11T16:19:48.808Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 4,
+    "fields": {
+        "label": "read",
+        "bg_image": "bg4",
+        "is_active": true,
+        "updated": "2016-09-12T10:43:03.530Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 5,
+    "fields": {
+        "label": "rider",
+        "bg_image": "bg2",
+        "is_active": true,
+        "updated": "2016-09-11T16:20:26.457Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 6,
+    "fields": {
+        "label": "contact",
+        "bg_image": "bg3",
+        "is_active": true,
+        "updated": "2016-09-11T16:20:36.569Z"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 1,
+    "fields": {
+        "section": 1,
+        "unit": 1,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 2,
+    "fields": {
+        "section": 1,
+        "unit": 2,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 3,
+    "fields": {
+        "section": 1,
+        "unit": 3,
+        "order_id": 20
+    }
+},
+{
+    "model": "core.content",
+    "pk": 4,
+    "fields": {
+        "section": 2,
+        "unit": 4,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 5,
+    "fields": {
+        "section": 2,
+        "unit": 5,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 6,
+    "fields": {
+        "section": 2,
+        "unit": 6,
+        "order_id": 20
+    }
+},
+{
+    "model": "core.content",
+    "pk": 7,
+    "fields": {
+        "section": 3,
+        "unit": 7,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 8,
+    "fields": {
+        "section": 3,
+        "unit": 8,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 9,
+    "fields": {
+        "section": 4,
+        "unit": 9,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 10,
+    "fields": {
+        "section": 4,
+        "unit": 10,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 11,
+    "fields": {
+        "section": 4,
+        "unit": 11,
+        "order_id": 20
+    }
+},
+{
+    "model": "core.content",
+    "pk": 12,
+    "fields": {
+        "section": 5,
+        "unit": 13,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 13,
+    "fields": {
+        "section": 5,
+        "unit": 14,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 14,
+    "fields": {
+        "section": 5,
+        "unit": 15,
+        "order_id": 20
+    }
+},
+{
+    "model": "core.content",
+    "pk": 15,
+    "fields": {
+        "section": 6,
+        "unit": 12,
+        "order_id": 0
+    }
+},
+{
     "model": "admin.logentry",
     "pk": 1,
     "fields": {
@@ -621,366 +999,6 @@
         "object_repr": "contact_head: MOON2 contacts",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"body\"]}}]"
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 1,
-    "fields": {
-        "token": "index_head_text",
-        "title": "MOON2",
-        "annotation": "inhuman music made by humans for a humankind",
-        "body": "Imagine if you could touch the sounds surrounding you. Imagine if you could build a piece of music by simply grabbing and moving sounds around, as if they were sticks and stones. Imagine yourself becoming a Titan in a vast sonic Universe moving and smashing massive masses of sounds around you.\r\n\r\nMOON2 (formely Sympli Romatik\u00f3) is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for a humankind.",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 2,
-    "fields": {
-        "token": "index_video",
-        "title": "",
-        "annotation": "",
-        "body": "<iframe src=\"https://player.vimeo.com/video/134827501?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 3,
-    "fields": {
-        "token": "index_audio",
-        "title": "",
-        "annotation": "",
-        "body": "<iframe style=\"border: 0; width: 300px; height: 300px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 4,
-    "fields": {
-        "token": "watch_head_text",
-        "title": "MOON2",
-        "annotation": "is a virtual world with simplified physical laws,",
-        "body": "where sounds turn into objects, whose behaviour is affected by natural forces such as gravity and wind. Performer\u2019s hands attract floating sounds \u2013 he literally \u201cgrasps\u201d them and \u201cdraws\u201d their trajectories in space. The space itself is a giant ephemeral musical instrument, which you neither pluck, nor bow, but excite through movement.",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 5,
-    "fields": {
-        "token": "watch_body",
-        "title": "",
-        "annotation": "it is neither about dance, nor interactive electronic music",
-        "body": ", nor whatever fancy label one can come up with. It is about a human body simultaneously operating in so-call reality as well as in the virtual World, which we can only hear.\r\n\r\nInterested in having us around? Please, take a look at our tech-rider (<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\">stereo</a> | <a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\">surround</a>) and <a href=\"/contact/\">contact us</a>.\r\n\r\n<a href=\"http://sympliromatiko.net/video/\">More videos</a>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 6,
-    "fields": {
-        "token": "watch_media",
-        "title": "",
-        "annotation": "",
-        "body": "<iframe src=\"https://player.vimeo.com/video/134404722?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 7,
-    "fields": {
-        "token": "listen_media1",
-        "title": "",
-        "annotation": "",
-        "body": "<iframe width=\"430\" height=\"120\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/16549058&amp;color=e54b29&amp;auto_play=false&amp;show_user=true&amp;show_reposts=false\"></iframe>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 8,
-    "fields": {
-        "token": "listen_media2",
-        "title": "",
-        "annotation": "",
-        "body": "<iframe style=\"border: 1; border-width: 6px; border-style: solid; border-radius: 5px; border-color: #f5f5f5; width: 430px; height: 110px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 9,
-    "fields": {
-        "token": "read_head",
-        "title": "MOON2",
-        "annotation": "Denis Kolokol, electronics, movement\r\nErnest Og\u00f3rek, bass\r\nTomek Cho\u0142oniewski, drums",
-        "body": "MOON2 is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for a humankind.",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 10,
-    "fields": {
-        "token": "read_portrait",
-        "title": "",
-        "annotation": "",
-        "body": "<a href=\"/static/img/portrait.jpg\"><img src=\"/static/img/portrait_s.jpg\" border=\"0\" /></a>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 11,
-    "fields": {
-        "token": "read_statement",
-        "title": "",
-        "annotation": "",
-        "body": "We see music not as a sequence of events, but as a dynamic system, which we only pretend to control. If an order becomes slightly more complicated, than the simple \u201cif-else\u201d directive, the system tends to fall apart as more and more hidden inconsistencies unfold. These anomalies is our material. We balance on the surface of the meticulously painted chart trying not to be buried under the pure chaos.\r\n\r\nAll the electronic sounds are programmed manually in <a href=\"http://supercollider.github.io/\">SuperCollider</a>. No commercial synths used.",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 12,
-    "fields": {
-        "token": "contact_head",
-        "title": "MOON2 contacts",
-        "annotation": "",
-        "body": "speak to <i>Denis Kolokol</i> +48 508 986 079\r\nor write to <i>dkolokol AT gmail DOT com</i>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 13,
-    "fields": {
-        "token": "rider_full_text",
-        "title": "",
-        "annotation": "",
-        "body": "<h5>Electronics</h5>2 speakers powerful enough for the room.\r\nCables to connect audio interface with the main mixer (mono-outputs 1/4'' TRS). Subwoofer(s) powerful enough for the room (summary from all channels, except bass).\r\n<h5>Bass</h5>Bass amplifier on stage powerful enough for the room.\r\n<h5>Drums</h5>A drum kit: bass drum with pedal, snare drum with stand, floor tom, two hanging toms, hi-hat stand, 3 cymbal stands, drum chair, additional normal chair, carpet (if needed). Warning! The drum kit isn't needed for gigs taking place in Krako\u0301w. Instead the transportation of the drum kit to and fro is required.\r\nMic set for amplification of the drum kit.\r\n<h5>Monitoring</h5>2 mono stage monitors, with summary from all channels on the main mixer. Warning! Monitors should be placed as close to the speakers as possible (see image).\r\n<h5>Other</h5>\r\nTable for electronics (approx 120x70cm, any height).\r\nStand for Kinect (not higher than 70cm above the surface, on which a frontman stands). AC: 5 sockets for electronics according to your country standards.\r\n<h5>Lights</h5>Dim light with the dominance of red color. Static red spots on each band member.\r\n<h5>Optional</h5>Stage platform or scene approx 30-50cm high.\r\n<b>Warning!</b> For gigs taking place in Krako\u0301w: transportation of the drum kit (to and fro).\r\n<h5>Calibration and check</h5>1.5 hrs soundcheck. Warning! Critical for properly calibrating the space and amplifying the drums!\r\nLight and sound engineers available during the calibration and sound / light-check.",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 14,
-    "fields": {
-        "token": "rider_stereo",
-        "title": "",
-        "annotation": "",
-        "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\"><img src=\"/static/img/moon2rider_stereo.jpg\" border=\"0\" />",
-        "is_active": true
-    }
-},
-{
-    "model": "core.unit",
-    "pk": 15,
-    "fields": {
-        "token": "rider_surround",
-        "title": "",
-        "annotation": "",
-        "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\"><img src=\"/static/img/moon2rider_surround.jpg\" border=\"0\" /></a>",
-        "is_active": true
-    }
-},
-{
-    "model": "core.section",
-    "pk": 1,
-    "fields": {
-        "label": "index",
-        "bg_image": "bg1",
-        "is_active": true,
-        "updated": "2016-09-11T16:19:24.913Z"
-    }
-},
-{
-    "model": "core.section",
-    "pk": 2,
-    "fields": {
-        "label": "watch",
-        "bg_image": "bg5",
-        "is_active": true,
-        "updated": "2016-09-11T16:19:37.728Z"
-    }
-},
-{
-    "model": "core.section",
-    "pk": 3,
-    "fields": {
-        "label": "listen",
-        "bg_image": "bg6",
-        "is_active": true,
-        "updated": "2016-09-11T16:19:48.808Z"
-    }
-},
-{
-    "model": "core.section",
-    "pk": 4,
-    "fields": {
-        "label": "read",
-        "bg_image": "bg4",
-        "is_active": true,
-        "updated": "2016-09-12T10:43:03.530Z"
-    }
-},
-{
-    "model": "core.section",
-    "pk": 5,
-    "fields": {
-        "label": "rider",
-        "bg_image": "bg2",
-        "is_active": true,
-        "updated": "2016-09-11T16:20:26.457Z"
-    }
-},
-{
-    "model": "core.section",
-    "pk": 6,
-    "fields": {
-        "label": "contact",
-        "bg_image": "bg3",
-        "is_active": true,
-        "updated": "2016-09-11T16:20:36.569Z"
-    }
-},
-{
-    "model": "core.content",
-    "pk": 1,
-    "fields": {
-        "section": 1,
-        "unit": 1,
-        "order_id": 0
-    }
-},
-{
-    "model": "core.content",
-    "pk": 2,
-    "fields": {
-        "section": 1,
-        "unit": 2,
-        "order_id": 10
-    }
-},
-{
-    "model": "core.content",
-    "pk": 3,
-    "fields": {
-        "section": 1,
-        "unit": 3,
-        "order_id": 20
-    }
-},
-{
-    "model": "core.content",
-    "pk": 4,
-    "fields": {
-        "section": 2,
-        "unit": 4,
-        "order_id": 0
-    }
-},
-{
-    "model": "core.content",
-    "pk": 5,
-    "fields": {
-        "section": 2,
-        "unit": 5,
-        "order_id": 10
-    }
-},
-{
-    "model": "core.content",
-    "pk": 6,
-    "fields": {
-        "section": 2,
-        "unit": 6,
-        "order_id": 20
-    }
-},
-{
-    "model": "core.content",
-    "pk": 7,
-    "fields": {
-        "section": 3,
-        "unit": 7,
-        "order_id": 0
-    }
-},
-{
-    "model": "core.content",
-    "pk": 8,
-    "fields": {
-        "section": 3,
-        "unit": 8,
-        "order_id": 10
-    }
-},
-{
-    "model": "core.content",
-    "pk": 9,
-    "fields": {
-        "section": 4,
-        "unit": 9,
-        "order_id": 0
-    }
-},
-{
-    "model": "core.content",
-    "pk": 10,
-    "fields": {
-        "section": 4,
-        "unit": 10,
-        "order_id": 10
-    }
-},
-{
-    "model": "core.content",
-    "pk": 11,
-    "fields": {
-        "section": 4,
-        "unit": 11,
-        "order_id": 20
-    }
-},
-{
-    "model": "core.content",
-    "pk": 12,
-    "fields": {
-        "section": 5,
-        "unit": 13,
-        "order_id": 0
-    }
-},
-{
-    "model": "core.content",
-    "pk": 13,
-    "fields": {
-        "section": 5,
-        "unit": 14,
-        "order_id": 10
-    }
-},
-{
-    "model": "core.content",
-    "pk": 14,
-    "fields": {
-        "section": 5,
-        "unit": 15,
-        "order_id": 20
-    }
-},
-{
-    "model": "core.content",
-    "pk": 15,
-    "fields": {
-        "section": 6,
-        "unit": 12,
-        "order_id": 0
     }
 }
 ]
