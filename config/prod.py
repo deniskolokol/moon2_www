@@ -18,5 +18,3 @@ DATABASES = {
         'PORT' : '5432',
     }
 }
-
-DEBUG = False
