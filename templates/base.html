@@ -1,7 +1,11 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <style>
 html {
+    {% if page_img %}
     background: url('/static/img/{{ page_img }}') no-repeat center center fixed;
+    {% else %}
+    background: url('/static/img/bgag.jpg') no-repeat center center fixed;
+    {% endif %}
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
