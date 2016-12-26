@@ -7,7 +7,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render_to_response
 from django.conf import settings
 
-from moon2_www.core.models import Content
+from core.models import Content
 
 
 def view_content(request, **kwargs):

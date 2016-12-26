@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     
     'django_extensions',
 
-    'moon2_www.core',
-    'moon2_www.browser',
+    'core',
+    'browser',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'moon2_www.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -118,9 +118,4 @@ USE_L10N = True
 
 USE_TZ = True
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.10/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-STATICFILES_DIRS = []
 STATIC_URL = '/static/'
