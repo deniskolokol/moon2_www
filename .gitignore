@@ -100,3 +100,6 @@ db.sqlite3
 
 # Deployment scripts
 fabfile
+
+# Gunicorn sock files
+*.sock
