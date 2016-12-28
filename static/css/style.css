@@ -134,53 +134,53 @@ table#tableCNTR {
     table-layout: fixed
 }
 
-H5 {
+h5 {
     color: #cccccc;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 9pt;
     line-height: 1px;
 }
-H4 {
+h4 {
     color: #ffffff;
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 11pt;
 }
-H3 {
+h3 {
     color: #ffffff;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 12pt;
 }
-H2 {
+h2 {
     color: #ffffff;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 13pt;
 }
-H1 {
+h1 {
     color: #ffffff;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 14pt;
 }
-H5.black {
+h5.black {
     color: #505050;
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 10pt;
 }
-H4.black {
+h4.black {
     color: #505050;
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 11pt;
 }
-H3.black {
+h3.black {
     color: #505050;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 12pt;
 }
-H2.black {
+h2.black {
     color: #505050;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 13pt;
 }
-H1.black {
+h1.black {
     color: #505050;   
     font-family: Tahoma, Arial, sans-serif;   
     font-size: 14pt;

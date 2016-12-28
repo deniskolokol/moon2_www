@@ -11,7 +11,7 @@ from core.models import Content
 
 
 def view_content(request, **kwargs):
-    """Builds Index page."""
+    """Outputs specified page."""
     template = kwargs.get('template', None)
     section = kwargs.get('section', None)
     if (not template) or (not section):
@@ -26,7 +26,21 @@ def view_content(request, **kwargs):
         'content': [list(data)],
         'menu': get_menu(),
         'page_img': page_img,
-        'static_url': settings.STATIC_URL
+        })
+
+
+def view_static(request, **kwargs):
+    """Outputs static page."""
+    template = kwargs.get('template', None)
+    if not template:
+        raise Http404
+    template = '.'.join([template, 'html'])
+    title = kwargs.get('title', 'static page')
+    img = kwargs.get('img', 'bgag.jpg')
+    return render_to_response(template, {
+        'page_title': title,
+        'menu': get_menu(),
+        'page_img': img,
         })
 
 

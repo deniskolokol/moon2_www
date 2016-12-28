@@ -1,10 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+{% load static %}
+
 <style>
 html {
     {% if page_img %}
-    background: url('/static/img/{{ page_img }}') no-repeat center center fixed;
+    background: url("{% static "img/" %}{{ page_img }}") no-repeat center center fixed;
     {% else %}
-    background: url('/static/img/bgag.jpg') no-repeat center center fixed;
+    background: url("{% static "img/bgag.jpg" %}") no-repeat center center fixed;
     {% endif %}
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +18,7 @@ html {
 <html>
 <head>
   <meta http-equiv = "Content-Type" content = "text/html; charset=utf-8">
-  <link rel="stylesheet" type="text/css" href="{{ static_url }}css/style.css" />
+  <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}" />
   <title> {{ page_title }} </title>
 </head>
 

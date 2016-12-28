@@ -10,4 +10,5 @@ urlpatterns = (
     url(r'^read/$', views.view_content, {'template': 'row_bottom', 'section': 'read'}),
     url(r'^rider/$', views.view_content, {'template': 'column_left', 'section': 'rider'}),
     url(r'^contact/$', views.view_content, {'template': 'row_top', 'section': 'contact'}),
+    url(r'^404/$', views.view_static, {'template': '404'}),
 )
