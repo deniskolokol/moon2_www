@@ -37,9 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
     'django_extensions',
-
     'core',
     'browser',
 ]
@@ -119,3 +117,15 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'public/static/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'public/media/')
+STATICFILES_DIRS = []
+
+
+# Import local settings
+
+try:
+    from config.local import *
+except ImportError:
+    print 'Local settings not found, running on common.'
