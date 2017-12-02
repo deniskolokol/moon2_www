@@ -7,7 +7,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render_to_response
 from django.conf import settings
 
-from core.models import Content
+from core.models import Content, SocialResource
 
 
 def view_content(request, **kwargs):
@@ -16,17 +16,23 @@ def view_content(request, **kwargs):
     section = kwargs.get('section', None)
     if (not template) or (not section):
         raise Http404
-    template = '.'.join([template, 'html'])
-    data = Content.objects \
-      .filter(section__label=section, section__is_active=True) \
-      .order_by('order_id')
-    page_img = data[0].section.bg_image + ".jpg"
-    return render_to_response(template, {
-        'page_title': get_page_title(section),
-        'content': [list(data)],
-        'menu': get_menu(),
-        'page_img': page_img,
-        })
+
+    if not template.endswith('.html'):
+        template += '.html'
+    data = Content.get_columns(section__label=section, section__is_active=True)
+    page_img = data[0][0].section.bg_image + ".jpg"
+    if not page_img.endswith('.jpg'):
+        page_img += '.jpg'
+    return render_to_response(
+        template,
+        {
+            'page_title': get_page_title(section),
+            'content': data,
+            'menu': get_menu(),
+            'social': get_social(),
+            'page_img': page_img,
+            }
+        )
 
 
 def view_static(request, **kwargs):
@@ -34,6 +40,7 @@ def view_static(request, **kwargs):
     template = kwargs.get('template', None)
     if not template:
         raise Http404
+
     template = '.'.join([template, 'html'])
     title = kwargs.get('title', 'static page')
     img = kwargs.get('img', 'bgag.jpg')
@@ -60,3 +67,7 @@ def get_menu():
         {'label': 'rider', 'uri': '/rider/'},
         {'label': 'contact', 'uri': '/contact/'},
         ]
+
+
+def get_social():
+    return SocialResource.objects.all().order_by('order_id')
