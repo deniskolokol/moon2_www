@@ -135,9 +135,9 @@ table#tableCNTR {
 }
 
 h5 {
-    color: #cccccc;   
+    color: #ffffff;
     font-family: Tahoma, Arial, sans-serif;   
-    font-size: 9pt;
+    font-size: 8pt;
     line-height: 1px;
 }
 h4 {
@@ -163,7 +163,7 @@ h1 {
 h5.black {
     color: #505050;
     font-family: Tahoma, Arial, sans-serif;   
-    font-size: 10pt;
+    font-size: 8pt;
 }
 h4.black {
     color: #505050;
