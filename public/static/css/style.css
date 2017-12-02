@@ -5,7 +5,6 @@ html, body {
 }
 
 #container {
-    /* border: solid 1px #fff; */
     height: 100%;
     position: relative;
 }
@@ -31,7 +30,7 @@ html, body {
 }
 
 A {
-    font-family: Verdana, Arial, sans-serif;   
+    font-family: Verdana, Arial, sans-serif;
     font-size: 8pt;
     color: #f3f0ed;
 }
@@ -61,13 +60,13 @@ A.white {
 }
 
 A:hover {
-    text-decoration: none;   
+    text-decoration: none;
     color: #666666;
     text-decoration: none;
 }
 
 A:hover.alt {
-    text-decoration: none;   
+    text-decoration: none;
     color: #f3f0ed;
     text-decoration: none;
 }
@@ -91,27 +90,27 @@ A:hover.white {
 
 TD {
     color: #959595;
-    font-family: Verdana, Arial, sans-serif;   
+    font-family: Verdana, Arial, sans-serif;
     font-size: 8pt;
     vertical-align: top;
 }
 
 TD.alt {
-    color: #666666;   
-    font-family: Verdana, Arial, sans-serif;   
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 8pt;
 }
 
 TD.annot {
     color: #959595;
-    font-family: Verdana, Arial, sans-serif;   
+    font-family: Verdana, Arial, sans-serif;
     font-size: 9pt;
     font-style: italic;
 }
 
 TD.index {
     color: #000000;
-    font-family: Verdana, Arial, sans-serif;   
+    font-family: Verdana, Arial, sans-serif;
     font-size: 7pt;
 }
 
@@ -136,52 +135,61 @@ table#tableCNTR {
 
 h5 {
     color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;   
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 8pt;
     line-height: 1px;
 }
+
 h4 {
     color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;   
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 11pt;
 }
+
 h3 {
-    color: #ffffff;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 12pt;
 }
+
 h2 {
-    color: #ffffff;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 13pt;
 }
+
 h1 {
-    color: #ffffff;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 14pt;
 }
+
 h5.black {
     color: #505050;
-    font-family: Tahoma, Arial, sans-serif;   
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 8pt;
 }
+
 h4.black {
     color: #505050;
-    font-family: Tahoma, Arial, sans-serif;   
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 11pt;
 }
+
 h3.black {
-    color: #505050;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #505050;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 12pt;
 }
+
 h2.black {
-    color: #505050;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #505050;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 13pt;
 }
+
 h1.black {
-    color: #505050;   
-    font-family: Tahoma, Arial, sans-serif;   
+    color: #505050;
+    font-family: Tahoma, Arial, sans-serif;
     font-size: 14pt;
 }
