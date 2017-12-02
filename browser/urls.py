@@ -10,5 +10,6 @@ urlpatterns = (
     url(r'^read/$', views.view_content, {'template': 'multicol', 'section': 'read'}),
     url(r'^rider/$', views.view_content, {'template': 'multicol', 'section': 'rider'}),
     url(r'^contact/$', views.view_content, {'template': 'multicol', 'section': 'contact'}),
+    url(r'^reviews/$', views.view_content, {'template': 'multicol', 'section': 'reviews'}),
     url(r'^404/$', views.view_static, {'template': '404'}),
 )
