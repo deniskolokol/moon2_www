@@ -75,7 +75,7 @@ class SocialResource(models.Model):
     name = models.CharField(max_length=20)
     title = models.CharField(max_length=100, blank=True, null=True)
     url = models.URLField(max_length=500)
-    img_url = models.URLField(max_length=500)
+    img_url = models.CharField(max_length=500)
     order_id = models.IntegerField(
         default=0,
         help_text='Order in which logo appears in the stripe'
