@@ -1,3 +1,3 @@
 {% for rs in social %}
-<a href="{{ rs.url }}" target=_blank><img src="{{ rs.img_url }}" height="40" width="40" border="0" title="{% if rs.title %} {{ rs.title }} {% else %} {{ rs.name }} {% endif %}" /></a>
+<a href="{{ rs.url }}" target=_blank><img class="grayscale" src="{{ rs.img_url }}" height="40" width="40" border="0" title="{% if rs.title %} {{ rs.title }} {% else %} {{ rs.name }} {% endif %}" /></a>
 {% endfor %}
