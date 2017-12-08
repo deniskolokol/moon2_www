@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Unit, Section, Content, SocialResource
+from .models import Unit, Section, Content
 
 
 def admin_method_attrs(**outer_kwargs):
@@ -53,12 +53,6 @@ class SectionAdmin(admin.ModelAdmin):
     list_display = ("label", "bg_image", "is_active", "updated", )
 
 
-class SocialResourceAdmin(admin.ModelAdmin):
-    list_display = ("order_id", "name", "title", )
-    ordering = ("order_id", )
-
-
 admin.site.register(Content, ContentAdmin)
 admin.site.register(Unit, UnitAdmin)
 admin.site.register(Section, SectionAdmin)
-admin.site.register(SocialResource, SocialResourceAdmin)

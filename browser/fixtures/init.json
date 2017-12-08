@@ -1,0 +1,106 @@
+[
+{
+    "model": "browser.socialresource",
+    "pk": 1,
+    "fields": {
+        "name": "facebook",
+        "title": "MOON2 on facebook",
+        "url": "http://www.facebook.com/moon2krakow/",
+        "img_url": "/static/img/social_facebook.png",
+        "order_id": 0
+    }
+},
+{
+    "model": "browser.socialresource",
+    "pk": 2,
+    "fields": {
+        "name": "youtube",
+        "title": "MOON2 youtube channel",
+        "url": "http://www.youtube.com/channel/UCK--6jQ2XHl51hHplZejpeg",
+        "img_url": "/static/img/social_youtube.png",
+        "order_id": 10
+    }
+},
+{
+    "model": "browser.socialresource",
+    "pk": 3,
+    "fields": {
+        "name": "soundcloud",
+        "title": "MOON2 on soundcloud",
+        "url": "http://soundcloud.com/moon2band",
+        "img_url": "/static/img/social_soundcloud.png",
+        "order_id": 20
+    }
+},
+{
+    "model": "browser.socialresource",
+    "pk": 4,
+    "fields": {
+        "name": "discogs",
+        "title": "MOON2 artist profile on Discogs",
+        "url": "https://www.discogs.com/artist/6120505-Moon2",
+        "img_url": "/static/img/social_discogs.png",
+        "order_id": 40
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 1,
+    "fields": {
+        "label": "index",
+        "uri": "/",
+        "parent": null,
+        "order_id": 0
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 2,
+    "fields": {
+        "label": "watch",
+        "uri": "/watch/",
+        "parent": null,
+        "order_id": 10
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 3,
+    "fields": {
+        "label": "listen",
+        "uri": "/listen/",
+        "parent": null,
+        "order_id": 20
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 4,
+    "fields": {
+        "label": "read",
+        "uri": "/read/",
+        "parent": null,
+        "order_id": 30
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 5,
+    "fields": {
+        "label": "rider",
+        "uri": "/rider/",
+        "parent": null,
+        "order_id": 40
+    }
+},
+{
+    "model": "browser.menuitem",
+    "pk": 6,
+    "fields": {
+        "label": "contact",
+        "uri": "/contact/",
+        "parent": null,
+        "order_id": 50
+    }
+}
+]

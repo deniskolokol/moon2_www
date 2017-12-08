@@ -7,7 +7,8 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render_to_response
 from django.conf import settings
 
-from core.models import Content, SocialResource
+from core.models import Content
+from .models import SocialResource, MenuItem
 
 
 def view_content(request, **kwargs):
@@ -28,8 +29,10 @@ def view_content(request, **kwargs):
         {
             'page_title': get_page_title(section),
             'content': data,
-            'menu': get_menu(),
-            'social': get_social(),
+
+            # XXX add support for tree structure
+            'menu': MenuItem.objects.all().order_by('order_id'),
+            'social': SocialResource.objects.all().order_by('order_id'),
             'page_img': page_img,
             }
         )
@@ -56,18 +59,3 @@ def get_page_title(lb):
     if lb:
         return "%s: %s" % (settings.PROJECT_NAME, lb)
     return settings.PROJECT_NAME
-
-
-def get_menu():
-    return [
-        {'label': 'index', 'uri': '/'},
-        {'label': 'watch', 'uri': '/watch/'},
-        {'label': 'listen', 'uri': '/listen/'},
-        {'label': 'read', 'uri': '/read/'},
-        {'label': 'rider', 'uri': '/rider/'},
-        {'label': 'contact', 'uri': '/contact/'},
-        ]
-
-
-def get_social():
-    return SocialResource.objects.all().order_by('order_id')
