@@ -30,7 +30,7 @@ html, body {
 }
 
 A {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 22pt;
     color: #f3f0ed;
 }
@@ -90,27 +90,27 @@ A:hover.white {
 
 TD {
     color: #959595;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 26pt;
     vertical-align: top;
 }
 
 TD.alt {
     color: #666666;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 22pt;
 }
 
 TD.annot {
     color: #959595;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 23pt;
     font-style: italic;
 }
 
 TD.index {
     color: #000000;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 21pt;
 }
 
