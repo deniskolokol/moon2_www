@@ -5,8 +5,8 @@
     "fields": {
         "token": "index_head_text",
         "title": "MOON2",
-        "annotation": "inhuman music made by humans for a humankind",
-        "body": "Imagine if you could touch the sounds surrounding you. Imagine if you could build a piece of music by simply grabbing and moving sounds around, as if they were sticks and stones. Imagine yourself becoming a Titan in a vast sonic Universe moving and smashing massive masses of sounds around you.\r\n\r\nMOON2 (formely Sympli Romatik\u00f3) is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for a humankind.",
+        "annotation": "inhuman music made by humans for humankind",
+        "body": "Imagine if you could touch the sounds surrounding you. Imagine if you could build a piece of music by simply grabbing and moving sounds around, as if they were sticks and stones. Imagine yourself becoming a Titan in a vast sonic Universe moving and smashing massive masses of sounds around you.\r\n\r\nMOON2 is a trio with more or less stable residence in Krak\u00f3w, Poland. The group\u2019s main focus is interactive performance, algorithmic composition, virtual worlds, this kind of stuff... Pretty scientific and inhuman, but made by humans and for humankind.",
         "is_active": true
     }
 },
@@ -26,9 +26,9 @@
     "pk": 3,
     "fields": {
         "token": "index_audio",
-        "title": "",
+        "title": "Latest CD",
         "annotation": "",
-        "body": "<iframe style=\"border: 0; width: 300px; height: 300px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
+        "body": "<iframe style=\"border: 0; width: 300px; height: 300px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1736828142/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/elementy-ruchu\">Elementy Ruchu by Moon2</a></iframe>",
         "is_active": true
     }
 },
@@ -36,7 +36,7 @@
     "model": "core.unit",
     "pk": 4,
     "fields": {
-        "token": "watch_head_text",
+        "token": "watch_head_col0",
         "title": "MOON2",
         "annotation": "is a virtual world with simplified physical laws,",
         "body": "where sounds turn into objects, whose behaviour is affected by natural forces such as gravity and wind. Performer\u2019s hands attract floating sounds \u2013 he literally \u201cgrasps\u201d them and \u201cdraws\u201d their trajectories in space. The space itself is a giant ephemeral musical instrument, which you neither pluck, nor bow, but excite through movement.",
@@ -47,10 +47,10 @@
     "model": "core.unit",
     "pk": 5,
     "fields": {
-        "token": "watch_body",
+        "token": "watch_head_col1",
         "title": "",
-        "annotation": "it is neither about dance, nor interactive electronic music",
-        "body": ", nor whatever fancy label one can come up with. It is about a human body simultaneously operating in so-call reality as well as in the virtual World, which we can only hear.\r\n\r\nInterested in having us around? Please, take a look at our tech-rider (<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\">stereo</a> | <a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\">surround</a>) and <a href=\"/contact/\">contact us</a>.\r\n\r\n<a href=\"http://sympliromatiko.net/video/\">More videos</a>",
+        "annotation": "it is neither about dance, nor interactive performance",
+        "body": "nor any other fancy label one can come up with. It is about a human body simultaneously operating in a so-called reality as well as in the virtual World, which we can only hear.\r\n\r\nInterested in having us around? Please, take a look at our tech-rider (<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\">stereo</a> | <a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\">surround</a>) and <a href=\"/contact/\">contact us</a>.",
         "is_active": true
     }
 },
@@ -58,10 +58,10 @@
     "model": "core.unit",
     "pk": 6,
     "fields": {
-        "token": "watch_media",
+        "token": "watch_video_col0",
         "title": "",
         "annotation": "",
-        "body": "<iframe src=\"https://player.vimeo.com/video/134404722?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "body": "<iframe src=\"https://player.vimeo.com/video/81049662?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
         "is_active": true
     }
 },
@@ -69,10 +69,10 @@
     "model": "core.unit",
     "pk": 7,
     "fields": {
-        "token": "listen_media1",
-        "title": "",
+        "token": "listen_soundcloud1",
+        "title": "unreleased, excerpts, etc.",
         "annotation": "",
-        "body": "<iframe width=\"430\" height=\"120\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/16549058&amp;color=e54b29&amp;auto_play=false&amp;show_user=true&amp;show_reposts=false\"></iframe>",
+        "body": "<iframe width=\"100%\" height=\"500\" scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/16549058&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"></iframe>",
         "is_active": true
     }
 },
@@ -80,10 +80,10 @@
     "model": "core.unit",
     "pk": 8,
     "fields": {
-        "token": "listen_media2",
-        "title": "",
+        "token": "listen_bandcamp_Symp",
+        "title": "Past: as Sympli Romatik\u00f3",
         "annotation": "",
-        "body": "<iframe style=\"border: 1; border-width: 6px; border-style: solid; border-radius: 5px; border-color: #f5f5f5; width: 430px; height: 110px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
+        "body": "<iframe style=\"border: 0; width: 300px; height: 505px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=858428838/size=large/bgcol=333333/linkcol=e32c14/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/sympli-romatik\">Sympli Romatik\u00f3 by Sympli Romatik\u00f3</a></iframe>",
         "is_active": true
     }
 },
@@ -105,7 +105,7 @@
         "token": "read_portrait",
         "title": "",
         "annotation": "",
-        "body": "<a href=\"/static/img/portrait.jpg\"><img src=\"/static/img/portrait_s.jpg\" border=\"0\" /></a>",
+        "body": "<a href=\"/static/img/band1.jpg\"><img src=\"/static/img/band1_s.jpg\" width=\"90\" border=\"0\" /></a> <a href=\"/static/img/band3.jpg\"><img src=\"/static/img/band3_s.jpg\" width=\"90\" border=\"0\" /></a> <a href=\"/static/img/band5.jpg\"><img src=\"/static/img/band5_s.jpg\" width=\"90\" border=\"0\" /></a>\r\n\r\n<a href=\"/static/img/band2.jpg\"><img src=\"/static/img/band2_s.jpg\" width=\"90\" border=\"0\" /></a> <a href=\"/static/img/band4.jpg\"><img src=\"/static/img/band4_s.jpg\" width=\"90\" border=\"0\" /></a> <a href=\"/static/img/band6.jpg\"><img src=\"/static/img/band6_s.jpg\" width=\"90\" border=\"0\" /></a>",
         "is_active": true
     }
 },
@@ -148,7 +148,7 @@
     "fields": {
         "token": "rider_stereo",
         "title": "",
-        "annotation": "",
+        "annotation": "Possible placement - STEREO",
         "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mNDNtbmZidElmVk0/\"><img src=\"/static/img/moon2rider_stereo.jpg\" border=\"0\" />",
         "is_active": true
     }
@@ -159,8 +159,74 @@
     "fields": {
         "token": "rider_surround",
         "title": "",
-        "annotation": "",
+        "annotation": "Possible placement - SURROUND",
         "body": "<a href=\"https://drive.google.com/file/d/0B0RqX5ckmV-mWlZTdGp2Z2QteFE/\"><img src=\"/static/img/moon2rider_surround.jpg\" border=\"0\" /></a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 17,
+    "fields": {
+        "token": "blank_col",
+        "title": "",
+        "annotation": "",
+        "body": "",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 18,
+    "fields": {
+        "token": "watch_video_col1",
+        "title": "",
+        "annotation": "",
+        "body": "<iframe src=\"https://player.vimeo.com/video/134404722?title=0&byline=0&portrait=0\" width=\"300\" height=\"169\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\r\n\r\n<a href=\"https://www.youtube.com/channel/UCK--6jQ2XHl51hHplZejpeg\">More videos</a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 19,
+    "fields": {
+        "token": "rider_link",
+        "title": "MOON2 tech-rider",
+        "annotation": "",
+        "body": "download tech-rider as PDF: <a href=\"https://drive.google.com/open?id=0B8MYOOEPd3AMOWJBalV1OFhsd28\">Stereo</a> | <a href=\"https://drive.google.com/open?id=0B8MYOOEPd3AMRkVTWnlIeU1adTg\">Surround</a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 20,
+    "fields": {
+        "token": "listen_bandkamp_moo2",
+        "title": "MOON2 latest CD",
+        "annotation": "",
+        "body": "<iframe style=\"border: 0; width: 300px; height: 505px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1736828142/size=large/bgcol=333333/linkcol=e32c14/transparent=true/\" seamless><a href=\"http://mathka.bandcamp.com/album/elementy-ruchu\">Elementy Ruchu by Moon2</a></iframe>\r\n\r\n<h5><a href=\"/reviews/\">Reviews</a></h5>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 21,
+    "fields": {
+        "token": "review_moon2_element",
+        "title": "MOON2 \"Elementy Ruchu\"",
+        "annotation": "MATHKA 2017",
+        "body": "<a href=\"https://mathka.bandcamp.com/album/elementy-ruchu\" target=_blank><img src=\"/static/img/album_ele.jpg\" width=\"70\" height=\"70\" /></a>\r\n<h5><a href=\"http://felthatreviews.blogspot.co.uk/2017/11/elementy-ruchu-by-moon2.html\">FELTHAT - REVIEWS</a></h5>Cracow in Poland has always been an interesting place of cross cultural clashes and crashes and despite quite conservative fog of both political and cultural grievances it erupts with variety of projects such as this one with Denis Kolokol, Tomek Cho\u0142oniewski and Ernest Og\u00f3rek as well as Marcin Barski and Agata Wo\u017anicka as narrators.\r\nDenis, Tomek and Ernest have great background both in contemporary composed and improvised music, have proved many times that they don't take themselves too seriously and with earnest childlike naivete they are able to create some interesting forms.\r\nMoon2 explores new terrain of experiments with different algorithms - using natural sounds of bass and percussion they create a fabulous form of space kraut opera with spoken word and narrative.\r\nThe sonorous textures are used here with mastery class of skill - creating the tissue that is both interesting and has the listeners in grip. But leaving aside the experiments - this album contains an explosive element of groove and beat that is undeniable.\r\nIt's quite rare to actually feel the under-the-skin improv influence and at the same time feel some undeniably fun material to listen to and definitely come back to it again and again. Well done, guys!\r\n<h5> </h5>\r\n<h5><a href=\"https://polifonia.blog.polityka.pl/2017/11/21/dziwny-upor-ale-upor-playlista-9/\">POLIFONIA Blog</a></h5>Bardzo oryginalny krakowski projekt MOON2 skupiaj\u0105cy wykonawc\u00f3w dzia\u0142aj\u0105cych wok\u00f3\u0142 wytw\u00f3rni Mathka to znakomita sekcja (perkusista Tomek Cho\u0142oniewski i basista Ernest Og\u00f3rek), Denis Kolokol generuj\u0105cy d\u017awi\u0119ki elektroniczne i wykorzystuj\u0105cy przy tym technologi\u0119 \u015bledzenia ruchu oraz, w drobnych narracyjnych elementach, Agata Wo\u017anicka i Marcin Barski. Pocz\u0105tkowo robi\u0105cy wra\u017cenie nieprzyst\u0119pnego i mocno przywi\u0105zanego do scenicznej formy (zesp\u00f3\u0142 mo\u017cna by\u0142o ostatnio zobaczy\u0107 w Cricotece) album okazuje si\u0119 propozycj\u0105 dla ca\u0142kiem szerokiego grona odbiorc\u00f3w \u2013 od tych poszukuj\u0105cych swobodnych form improwizowanych spoza obszaru jazzowego, a\u017c po wielbicieli muzyki elektronicznej (Kolokol wykorzystuje j\u0119zyk programowania Super Collider), a nawet fan\u00f3w rocka w bli\u017cszym transowej estetyce rockowej awangardy lat 70. albo sceny japo\u0144skiej Na ulice wyj\u015b\u0107 nie spos\u00f3b \u2013 powy\u017cej w w wersji albumowej, ale gdyby kto\u015b chcia\u0142 zobaczy\u0107, co pewnie wskazane, jak to wygl\u0105da, powinien stanowczo zajrze\u0107 <a href=\"https://www.youtube.com/embed/jRWbKG1jeno\"> pod ten link</a>",
+        "is_active": true
+    }
+},
+{
+    "model": "core.unit",
+    "pk": 22,
+    "fields": {
+        "token": "review_sympli_romati",
+        "title": "Sympli Romatik\u00f3 \"S/T\"",
+        "annotation": "MATHKA 2014",
+        "body": "<a href=\"https://mathka.bandcamp.com/album/sympli-romatik\" target=_blank><img src=\"https://f4.bcbits.com/img/a2320734712_16.jpg\" width=\"70\" height=\"70\" /></a>\r\n<h5><a href=\"http://www.vitalweekly.net/946.html\">Vital Weekly</a></h5>A trio from Poland, with Denis Kolokol (electronics and voice), Tomek Choloniewski (drums, percussion, voice) and Alexander Chikmakov (guitars). I think I only heard Kolokol's solo music before. They call their music: \"Pretty scientific and inhuman, but made by humans and for a humankind\", and program everything electronic in supercollider themselves. There are three pieces here, two of exactly 19 minutes and 43 seconds, and one of 12 minutes and thirty seconds. Following an atmospheric opening in the first piece, 'Misinterpretation Of Misunderstanding', there is a bit with vocals and I think this goes into the free-rock/improvisation side (something Dolf Mulder may understand better), but I keep listening and am surprised by the music. Music that is not easy to categorize, which I guess is a good thing. There is a certain element of free improvisation in the music and the drums may seem to be a bit rock like, but that's as far as these things go. The electronics doodle about, but are sometimes a bit more spacious. Good, bad, I am not sure if such terms apply here. I was quite fascinated by the whole thing. It sounded minimal, captivating and sometimes it goes a bit too long for my taste, but then, perhaps I find that to be captivating too. Confusing? I believe that's indeed what this music does. (FdW)",
         "is_active": true
     }
 },
@@ -191,7 +257,7 @@
         "label": "listen",
         "bg_image": "bg6",
         "is_active": true,
-        "updated": "2016-09-11T16:19:48.808Z"
+        "updated": "2017-12-02T12:39:07.675Z"
     }
 },
 {
@@ -199,9 +265,9 @@
     "pk": 4,
     "fields": {
         "label": "read",
-        "bg_image": "bg4",
+        "bg_image": "bg3",
         "is_active": true,
-        "updated": "2016-09-12T10:43:03.530Z"
+        "updated": "2017-12-02T12:39:40.650Z"
     }
 },
 {
@@ -219,9 +285,19 @@
     "pk": 6,
     "fields": {
         "label": "contact",
-        "bg_image": "bg3",
+        "bg_image": "bg9",
         "is_active": true,
-        "updated": "2016-09-11T16:20:36.569Z"
+        "updated": "2017-12-02T12:40:06.777Z"
+    }
+},
+{
+    "model": "core.section",
+    "pk": 7,
+    "fields": {
+        "label": "reviews",
+        "bg_image": "bg6",
+        "is_active": true,
+        "updated": "2017-12-02T12:48:55.799Z"
     }
 },
 {
@@ -230,6 +306,7 @@
     "fields": {
         "section": 1,
         "unit": 1,
+        "column": 0,
         "order_id": 0
     }
 },
@@ -239,6 +316,7 @@
     "fields": {
         "section": 1,
         "unit": 2,
+        "column": 0,
         "order_id": 10
     }
 },
@@ -248,6 +326,7 @@
     "fields": {
         "section": 1,
         "unit": 3,
+        "column": 0,
         "order_id": 20
     }
 },
@@ -257,6 +336,7 @@
     "fields": {
         "section": 2,
         "unit": 4,
+        "column": 1,
         "order_id": 0
     }
 },
@@ -266,7 +346,8 @@
     "fields": {
         "section": 2,
         "unit": 5,
-        "order_id": 10
+        "column": 2,
+        "order_id": 0
     }
 },
 {
@@ -275,7 +356,8 @@
     "fields": {
         "section": 2,
         "unit": 6,
-        "order_id": 20
+        "column": 1,
+        "order_id": 10
     }
 },
 {
@@ -284,6 +366,7 @@
     "fields": {
         "section": 3,
         "unit": 7,
+        "column": 2,
         "order_id": 0
     }
 },
@@ -293,7 +376,8 @@
     "fields": {
         "section": 3,
         "unit": 8,
-        "order_id": 10
+        "column": 1,
+        "order_id": 0
     }
 },
 {
@@ -302,6 +386,7 @@
     "fields": {
         "section": 4,
         "unit": 9,
+        "column": 0,
         "order_id": 0
     }
 },
@@ -311,7 +396,8 @@
     "fields": {
         "section": 4,
         "unit": 10,
-        "order_id": 10
+        "column": 0,
+        "order_id": 20
     }
 },
 {
@@ -320,7 +406,8 @@
     "fields": {
         "section": 4,
         "unit": 11,
-        "order_id": 20
+        "column": 0,
+        "order_id": 10
     }
 },
 {
@@ -329,6 +416,7 @@
     "fields": {
         "section": 5,
         "unit": 13,
+        "column": 1,
         "order_id": 0
     }
 },
@@ -338,6 +426,7 @@
     "fields": {
         "section": 5,
         "unit": 14,
+        "column": 0,
         "order_id": 10
     }
 },
@@ -347,6 +436,7 @@
     "fields": {
         "section": 5,
         "unit": 15,
+        "column": 0,
         "order_id": 20
     }
 },
@@ -356,6 +446,67 @@
     "fields": {
         "section": 6,
         "unit": 12,
+        "column": 0,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 17,
+    "fields": {
+        "section": 2,
+        "unit": 17,
+        "column": 0,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 18,
+    "fields": {
+        "section": 2,
+        "unit": 18,
+        "column": 2,
+        "order_id": 10
+    }
+},
+{
+    "model": "core.content",
+    "pk": 19,
+    "fields": {
+        "section": 5,
+        "unit": 19,
+        "column": 0,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 20,
+    "fields": {
+        "section": 3,
+        "unit": 20,
+        "column": 0,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 21,
+    "fields": {
+        "section": 7,
+        "unit": 21,
+        "column": 0,
+        "order_id": 0
+    }
+},
+{
+    "model": "core.content",
+    "pk": 22,
+    "fields": {
+        "section": 7,
+        "unit": 22,
+        "column": 1,
         "order_id": 0
     }
 }

@@ -1,4 +1,4 @@
-<table width="300" cellpadding="5" cellspacing="0" border="0">
+<table width="100%" cellpadding="5" cellspacing="0" border="0">
   <!-- header -->
   {% if item.unit.title %}
   <tr>

@@ -1,66 +1,43 @@
 {% extends "base.html" %}
-{% load static %}
 
 {% block content %}
-<table width="45%" cellpadding="5" cellspacing="0" border="0">
+<table width="100%" cellpadding="5" cellspacing="0" border="1">
   <!-- menu -->
   <tr>
     <td colSpan=6>
       {% include "includes/menu" %}
     </td>
   </tr>
-
-  <!-- spacer -->
-  <tr>
-    <td>
-      <img src="{% static "img/spacer.gif" %}" height="10" width="10" border="0">
-    </td>
-  </tr>
-
+  {% include "includes/spacer_cell" %}
   <!-- data -->
   <tr>
-  {% for column in content %}
-    <td>
-      <table width="50%" cellpadding="5" cellspacing="0" border="0">
-
+    {% for column in content %}
+    <td vAlign="top">
+      <table width="{% if request.user_agent.is_mobile %}100%{% else %}300{% endif %}"
+        cellpadding="5" cellspacing="0" border="0">
       {% for item in column %}
-	<tr>
-	  <td class="small">
-	    <!-- block -->
-            {% include "includes/unit" %}
-            <!-- block end -->
-	  </td>
-	</tr>
+        {% if request.user_agent.is_mobile %}
+          {% include "includes/unit" %}
+        {% else %}
+          {% include "includes/unit_cell" %}
+        {% endif %}
       {% endfor %}
-
       </table>
     </td>
-  {% endfor %}
+    {% endfor %}
   </tr>
 </table>
-
 <!-- footer -->
 <div id="bottom-left">
   <table width="100%" cellpadding="5" cellspacing="0" border="0">
-    <!-- spacer before -->
-    <tr>
-      <td>
-        <img src="{% static "img/spacer.gif" %}" height="10" width="10" border="0">
-      </td>
-    </tr>
+    {% include "includes/spacer_cell" %}
     <!-- logos -->
     <tr>
       <td>
         {% include "includes/social" %}
       </td>
     </tr>
-    <!-- spacer after -->
-    <tr>
-      <td>
-        <img src="{% static "img/spacer.gif" %}" height="10" width="10" border="0">
-      </td>
-    </tr>
+    {% include "includes/spacer_cell" %}
   </table>
 </div>
-
 {% endblock %}

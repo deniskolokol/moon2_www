@@ -24,8 +24,13 @@ html {
     #spacerock, #krakow, #cracow, #interactive, #performance, #electronicmusic,
     #algorithmiccomposition, #kinect, #motiontracking, #gesturetracking,
     #bodyrecognition, #virtualworld">
-  <meta name="description" content="MOON2 space-rock from Cracow, Poland. Inhuman music made by humans for humankind.">
-  <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}" />
+  <meta name="description" content="MOON2 space-rock from Cracow,
+  Poland. Inhuman music made by humans for humankind.">
+  {% if request.user_agent.is_mobile %}
+  <link rel="stylesheet" type="text/css" href="{% static "css/mobile.css" %}" />
+  {% else %}
+  <link rel="stylesheet" type="text/css" href="{% static "css/pc.css" %}" />
+  {% endif %}
   <title> {{ page_title }} </title>
 </head>
 
