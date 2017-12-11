@@ -26,6 +26,7 @@ def view_content(request, **kwargs):
     return render_to_response(
         template,
         {
+            'is_mobile': request.user_agent.is_mobile,
             'page_title': get_page_title(section),
             'content': data,
             'menu': MenuItem.objects.all().order_by('order_id'),
@@ -45,6 +46,7 @@ def view_static(request, **kwargs):
     title = kwargs.get('title', 'static page')
     img = kwargs.get('img', 'bgag.jpg')
     return render_to_response(template, {
+        'is_mobile': request.user_agent.is_mobile,
         'page_title': title,
         'menu': MenuItem.objects.all().order_by('order_id'),
         'page_img': img,

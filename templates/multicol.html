@@ -13,10 +13,10 @@
   <tr>
     {% for column in content %}
     <td vAlign="top">
-      <table width="{% if request.user_agent.is_mobile %}100%{% else %}300{% endif %}"
+      <table width="{% if is_mobile %}100%{% else %}300{% endif %}"
         cellpadding="5" cellspacing="0" border="0">
       {% for item in column %}
-        {% if request.user_agent.is_mobile %}
+        {% if is_mobile %}
           {% include "includes/unit" %}
         {% else %}
           {% include "includes/unit_cell" %}
