@@ -55,7 +55,7 @@ def view_static(request, **kwargs):
     return render_to_response(template, {
         'is_mobile': request.user_agent.is_mobile,
         'page_title': title,
-        'menu': MenuItem.objects.all().order_by('order_id'),
+        'menu': MenuItem.active().order_by('order_id'),
         'page_img': img,
         })
 
