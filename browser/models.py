@@ -22,6 +22,11 @@ class MenuItem(models.Model):
     uri = models.CharField(max_length=20)
     parent = models.ForeignKey('self', blank=True, null=True, related_name='children')
     order_id = models.IntegerField(default=0, help_text='Order id on its level')
+    is_active = models.BooleanField(default=True)
+
+    @classmethod
+    def active(cls):
+        return cls.objects.filter(is_active=True)
 
     def __unicode__(self):
         return "%s: %s" % (self.label, self.uri)
